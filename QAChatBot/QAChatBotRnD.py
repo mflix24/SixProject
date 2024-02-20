@@ -46,7 +46,7 @@ def main():
             answer = generate_answer(user_input)
 
             # Display the answer
-            st.text(f"This is your Answer{user_input2}:" + answer)
+            st.text(f"This is your Answer {user_input2}:" + answer)
 
 if __name__ == "__main__":
     main()
