@@ -2,7 +2,7 @@ import streamlit as st
 from langchain.prompts import PromptTemplate
 from langchain.llms import CTransformers
 
-## Function To get response from LLAma 2 model
+## Creating a function for getting response from LLAma2 model
 
 def getLLamaresponse(input_text,no_words,blog_style):
 
@@ -42,7 +42,7 @@ def getLLamaresponse(input_text,no_words,blog_style):
 
 
 
-
+# 
 st.set_page_config(page_title="Generate Blogs",
                     page_icon='🤖',
                     layout='centered',
