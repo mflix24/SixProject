@@ -1,0 +1,6 @@
+txt_file.write(extracted_text)
+
+# Example usage
+image_path = 'path/to/your/image.png'
+output_txt_path = 'path/to/save/output.txt'
+
